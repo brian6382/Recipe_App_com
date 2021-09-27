@@ -6,7 +6,7 @@ Focus of this app is to demonstrate (Not necessarily the best practices)
 
 # Screenshots
 
-<img alt="NewsApp Home" height="450px" src="https://raw.githubusercontent.com/brian6382/NewsApp/master/screenshot/screen1.png" /><img alt="NewsApp Search" height="450px" src="https://raw.githubusercontent.com/brian6382/NewsApp/master/screenshot/screen2.png" />
+<img alt="NewsApp Home" height="450px" src="https://raw.githubusercontent.com/brian6382/NewsApp/master/screenshot/screen1.png" />    <img alt="NewsApp Search" height="450px" src="https://raw.githubusercontent.com/brian6382/NewsApp/master/screenshot/screen2.png" />
 
 
 # Setup
