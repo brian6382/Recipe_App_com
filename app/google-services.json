@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "986956232723",
+    "project_id": "porpular-news",
+    "storage_bucket": "porpular-news.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:986956232723:android:8459d552e9a6116509e7e6",
+        "android_client_info": {
+          "package_name": "com.brian.popularnews"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "986956232723-pha9trlm08es8v60qk1miu75hvl288ek.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4n8jHkX005Y2nay8kSjD8JPrp9KgChnA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "986956232723-pha9trlm08es8v60qk1miu75hvl288ek.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

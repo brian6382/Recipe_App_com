@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="80dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:background="@color/teal_700"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginBottom="30dp"
+        android:id="@+id/logo"
+        android:src="@drawable/logo">
+
+    </ImageView>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layoutphone"
+        android:layout_below="@+id/logo">
+        <EditText
+            android:background="@color/teal_700"
+            android:layout_marginTop="10dp"
+            android:hint="Phone Number"
+            android:textColorHint="@android:color/white"
+            android:id="@+id/phone_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:id="@+id/loyoutpassword"
+        android:layout_height="wrap_content"
+        app:passwordToggleEnabled="true"
+        android:layout_below="@id/layoutphone">
+        <EditText
+            android:background="@color/teal_700"
+            android:layout_marginTop="10dp"
+            android:inputType="textPassword"
+            android:hint="Password"
+            android:textColorHint="@android:color/white"
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.rey.material.widget.CheckBox
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="2dp"
+        android:id="@+id/remember_me_chkb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Material.Drawable.CheckBox"
+        android:layout_below="@id/loyoutpassword"
+        android:text="Remember me"
+        android:textColor="@color/white"
+        app:cbd_strokeColor="@color/purple_700"
+        android:gravity="center_vertical"
+        android:textSize="18sp"
+        android:layout_marginLeft="17dp"
+        />
+
+
+
+    <Button
+        android:id="@+id/login"
+        android:layout_below="@+id/loyoutpassword"
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/purple_700"
+        android:text="LOGIN">
+
+    </Button>
+    <TextView
+        android:id="@+id/link_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Don't Have Account Register"
+        android:textColor="@color/white"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true">
+
+    </TextView>
+
+</RelativeLayout>
