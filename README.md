@@ -18,17 +18,9 @@ You will require Android Studio 3.0 (or newer).
 - Build app and enjoy :)
 
 # Architecture
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 <img alt="FooApp Home" height="450px" src="https://raw.githubusercontent.com/brian6382/NewsApp/master/screenshot/architecture.png" />
-=======
-![architecture](https://user-images.githubusercontent.com/82508349/135426808-0f8f3b51-afe3-471f-b9c3-a10333141b07.png)
-=======
 
->>>>>>> c406def31a8105ae7c32730ec0ef774ef0f4e63f
-
-
->>>>>>> c8db2ddf1572998b7c6b59a61afa4bb51c3c764b
 
 
 # Libraries and Services Used
