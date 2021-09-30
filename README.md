@@ -19,6 +19,8 @@ You will require Android Studio 3.0 (or newer).
 
 # Architecture
 
+![Screenshot1](https://user-images.githubusercontent.com/82508349/135426766-9b75d4bb-8b8b-44a8-afe2-94a8ad84bead.jpg)
+
 
 
 # Libraries and Services Used
