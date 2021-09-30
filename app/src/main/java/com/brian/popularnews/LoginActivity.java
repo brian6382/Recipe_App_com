@@ -14,8 +14,10 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.brian.popularnews.Models.Users;
+
 import com.brian.popularnews.Prevalent.Prevalent;
+import com.brian.popularnews.model.Users;
+import com.brian.popularnews.view.home.HomeActivity;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -54,7 +56,9 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                parentDbName = "Users";
+//                parentDbName = "Users";
+                Intent intent = new Intent(LoginActivity.this, HomeActivity.class);
+                startActivity(intent);
                 LoginUser();
 
             }
@@ -128,17 +132,17 @@ public class LoginActivity extends AppCompatActivity {
                                 Toast.makeText(LoginActivity.this, "Welcome Admin, you are logged in Successfully...", Toast.LENGTH_SHORT).show();
                                 loadingBar.dismiss();
 
-                                Intent intent = new Intent(LoginActivity.this, MainActivity.class);
-                                startActivity(intent);
+//                                Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+//                                startActivity(intent);
                             }
                             else if (parentDbName.equals("Users"))
                             {
                                 Toast.makeText(LoginActivity.this, "logged in Successfully...", Toast.LENGTH_SHORT).show();
                                 loadingBar.dismiss();
 
-                                Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+//                                Intent intent = new Intent(LoginActivity.this, MainActivity.class);
                                 Prevalent.currentOnlineUser = usersData;
-                                startActivity(intent);
+//                                startActivity(intent);
                             }
                         }
                         else

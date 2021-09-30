@@ -1,7 +1,8 @@
 package com.brian.popularnews.Prevalent;
 
 
-import com.brian.popularnews.Models.Users;
+
+import com.brian.popularnews.model.Users;
 
 public class Prevalent
 {

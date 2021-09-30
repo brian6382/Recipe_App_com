@@ -12,12 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PopularNews">
         <activity
-            android:name=".NewsDetailsActivity"
-            android:theme="@style/Theme.MaterialComponents.NoActionBar"
-            android:exported="true" />
-        <activity
-            android:name=".LoginActivity"
-            android:theme="@style/Theme.MaterialComponents.NoActionBar"
+            android:name=".splash"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,11 +21,30 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".RegisterActivity"
-            android:theme="@style/Theme.MaterialComponents.NoActionBar"
-            android:exported="true" />
+            android:name=".view.home.HomeActivity"
+            android:exported="true"
+            android:theme="@style/Theme.MaterialComponents.NoActionBar" />
         <activity
-            android:name=".MainActivity"
+            android:name=".LoginActivity"
+            android:exported="true"
+            android:theme="@style/Theme.MaterialComponents.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.detail.DetailActivity"
+            android:exported="true"
+            android:theme="@style/Theme.MaterialComponents.NoActionBar" />
+
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="true"
+            android:theme="@style/Theme.MaterialComponents.NoActionBar" />
+        <activity
+            android:name=".view.category.CategoryActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
