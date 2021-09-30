@@ -6,7 +6,7 @@ Focus of this app is to demonstrate (Not necessarily the best practices)
 
 # Screenshots
 
-<img alt="NewsApp Home" height="450px" src="https://raw.githubusercontent.com/brian6382/NewsApp/master/screenshot/screen1.png" />    <img alt="NewsApp Search" height="450px" src="https://raw.githubusercontent.com/brian6382/NewsApp/master/screenshot/screen2.png" />
+![Screenshot1](https://user-images.githubusercontent.com/82508349/135426766-9b75d4bb-8b8b-44a8-afe2-94a8ad84bead.jpg)   ![Screenshot1](https://user-images.githubusercontent.com/82508349/135426766-9b75d4bb-8b8b-44a8-afe2-94a8ad84bead.jpg)
 
 
 # Setup
@@ -18,7 +18,13 @@ You will require Android Studio 3.0 (or newer).
 - Build app and enjoy :)
 
 # Architecture
+<<<<<<< HEAD
 <img alt="FooApp Home" height="450px" src="https://raw.githubusercontent.com/brian6382/NewsApp/master/screenshot/architecture.png" />
+=======
+![architecture](https://user-images.githubusercontent.com/82508349/135426808-0f8f3b51-afe3-471f-b9c3-a10333141b07.png)
+
+
+>>>>>>> c8db2ddf1572998b7c6b59a61afa4bb51c3c764b
 
 
 # Libraries and Services Used
