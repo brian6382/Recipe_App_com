@@ -6,7 +6,7 @@ Focus of this app is to demonstrate (Not necessarily the best practices)
 
 # Screenshots
 
-<img alt="NewsApp Home" height="450px" src="https://raw.githubusercontent.com/brian6382/NewsApp/master/screenshot/screen1.png" />    <img alt="NewsApp Search" height="450px" src="https://raw.githubusercontent.com/brian6382/NewsApp/master/screenshot/screen2.png" />
+![Screenshot1](https://user-images.githubusercontent.com/82508349/135426766-9b75d4bb-8b8b-44a8-afe2-94a8ad84bead.jpg)   ![Screenshot1](https://user-images.githubusercontent.com/82508349/135426766-9b75d4bb-8b8b-44a8-afe2-94a8ad84bead.jpg)
 
 
 # Setup
@@ -19,7 +19,7 @@ You will require Android Studio 3.0 (or newer).
 
 # Architecture
 
-![Screenshot1](https://user-images.githubusercontent.com/82508349/135426766-9b75d4bb-8b8b-44a8-afe2-94a8ad84bead.jpg)
+
 
 
 
